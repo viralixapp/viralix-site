@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Viralix</title>
+  <style>
+    body { background: #111; color: #fff; font-family: sans-serif; margin: 0; padding: 0; }
+    header, footer { background: #000; padding: 20px; text-align: center; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    main { padding: 40px 20px; max-width: 600px; margin: auto; }
+    label, input, textarea { display: block; width: 100%; margin-bottom: 15px; }
+    input, textarea { padding: 10px; border: none; border-radius: 4px; }
+    button { padding: 10px 20px; background: #fff; color: #111; border: none; border-radius: 4px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contact</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="contact.html">Contact</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Contactez-nous</h2>
+    <form action="mailto:contact@viralixapp.com" method="POST" enctype="text/plain">
+      <label>Nom :</label>
+      <input type="text" name="name" required>
+      <label>Email :</label>
+      <input type="email" name="email" required>
+      <label>Message :</label>
+      <textarea name="message" rows="5" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </main>
+  <footer>&copy; 2025 Viralix. Tous droits réservés.</footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viralix</title>
+  </head>
+  <body>
+    <h1>Bienvenue sur Viralix</h1>
+    <p>L'app tout-en-un pour devenir viral sur TikTok et Instagram.</p>
+  </body>
+</html>
